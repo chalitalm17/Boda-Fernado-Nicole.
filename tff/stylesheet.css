@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Prima Donna';
+    src: url('PrimaDonna-Regular.eot');
+    src: url('PrimaDonna-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PrimaDonna-Regular.woff2') format('woff2'),
+        url('PrimaDonna-Regular.woff') format('woff'),
+        url('PrimaDonna-Regular.svg#PrimaDonna-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
