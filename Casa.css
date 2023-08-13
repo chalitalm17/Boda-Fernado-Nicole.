@@ -45,14 +45,14 @@
 }
 
 
-.card {
+.card ,.card1 {
   font-family: "Arial", sans-serif; /* Cambiar a la fuente "Arial" si "releway" no está disponible */
   width: 200px; /* Ancho de la tarjeta */
-  height: 135px; /* Altura de la tarjeta */
+  height: 180px; /* Altura de la tarjeta */
   border: none;
   padding: 20px;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 0px;
   border-radius: 10px; /* Esquinas redondeadas */
   display: flex;
   flex-direction: column;
@@ -63,12 +63,14 @@
   
 }
 
+ .card1{
+  margin-top: 50px;}
 
-.card {
+.card  , .card1{
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra en todo momento */
 }
 
-.card h2 {
+.card h2 , .card1 h2 {
   margin: 0;
   
   font-family: "releway", sans-serif; /* Cambiar a la fuente "releway" */
@@ -76,7 +78,7 @@
   text-align: center; /* Centrar el texto */
 }
 
-.card p {
+.card p, .card1 p {
   margin: 10px 0;
   font-family: "releway", sans-serif; /* Cambiar a la fuente "releway" */
   font-size: 10px; /* Tamaño de fuente de 15px */
@@ -84,7 +86,7 @@
   text-align: center; /* Centrar el texto */
 }
 
-.card button {
+.card button , .card1 button{
   background-color: #ccc; /* Color gris claro para el botón */
   color: black; /* Color de texto negro para el botón */
   border: none;
@@ -95,7 +97,7 @@
   transition: background-color 0.3s, color 0.3s; /* Transición para los colores */
 }
 
-.card button:hover {
+.card button:hover , .card1 p button:hover {
   background-color: #000000; /* Gris más oscuro para el botón al pasar el ratón */
   color: white; /* Texto blanco para el botón al pasar el ratón */
 }
@@ -860,24 +862,31 @@
 }
 
 .u-section-5 .u-container-layout-2 {
-  padding: 30px;
+  padding: 60px;
+  padding-top: 0px;
+  margin-left: -60px;
 }
 
 .u-section-5 .u-map-1 {
   width: 273px;
-  height: 299px;
+  height: 360px;
   margin: 0 auto;
+
 }
 
 @media (max-width: 1199px) {
   .u-section-5 .u-sheet-1 {
     min-height: 311px;
-  }
 
+  }
+  .u-section-5 .u-map-1 {
+
+    margin-left: -20px;
+  }
   .u-section-5 .u-layout-wrap-1 {
     position: relative;
     width: 940px;
-    margin-left: 0;
+    margin-left: 0%;
   }
 
   .u-section-5 .u-layout-cell-1 {
@@ -886,6 +895,7 @@
 
   .u-section-5 .u-text-1 {
     margin-top: 0;
+  
   }
 
   .u-section-5 .u-text-4 {
@@ -895,41 +905,49 @@
 
   .u-section-5 .u-layout-cell-2 {
     min-height: 345px;
+    
   }
 }
 
 @media (max-width: 991px) {
   .u-section-5 .u-sheet-1 {
     min-height: 66px;
+    
   }
 
   .u-section-5 .u-layout-wrap-1 {
     width: 720px;
+    
   }
 
   .u-section-5 .u-text-2 {
     margin-right: 74px;
+    
   }
 
   .u-section-5 .u-text-4 {
     margin-right: 74px;
     margin-left: 160px;
+    
   }
 
   .u-section-5 .u-layout-cell-2 {
     min-height: 264px;
+    
   }
 }
 
 @media (max-width: 767px) {
   .u-section-5 .u-sheet-1 {
     min-height: 707px;
+    
   }
 
   .u-section-5 .u-layout-wrap-1 {
     width: 540px;
     margin-top: 0;
     margin-right: 0;
+    
   }
 
   .u-section-5 .u-layout-cell-1 {
@@ -939,12 +957,14 @@
   .u-section-5 .u-container-layout-1 {
     padding-left: 0;
     padding-right: 0;
+    
   }
 
   .u-section-5 .u-text-1 {
     font-size: 1rem;
     width: auto;
     margin-right: auto;
+    
   }
 
   .u-section-5 .u-text-2 {
@@ -972,7 +992,7 @@
   }
 
   .u-section-5 .u-container-layout-2 {
-    padding-left: 10px;
+    padding-left: 220px;
     padding-right: 10px;
   }
 }
@@ -1001,6 +1021,7 @@
 
   .u-section-5 .u-layout-cell-2 {
     min-height: 249px;
+    margin-left: -110px;
   }
 }.u-section-6 .u-sheet-1 {
   min-height: 650px;
